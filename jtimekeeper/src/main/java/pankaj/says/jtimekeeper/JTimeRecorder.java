@@ -63,7 +63,7 @@ class JTimeRecorder {
 		
 		addTimeStat("getStats", System.currentTimeMillis());
 		
-		StringBuilder result = new StringBuilder("TimeRecorder[").append(currentMapSize).append("]");
+		StringBuilder result = new StringBuilder("JTimeKeeper[").append(currentMapSize).append("]");
 		result.append(Config.DEFAULT_DELIMITER).append(transctionId)
 				.append(Config.DEFAULT_DELIMITER);
 
